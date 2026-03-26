@@ -26,3 +26,6 @@ Production isn't uniform across stages; deviations link to specific operators/ma
 ## Tools & Next Steps
 **Currently using**: SQL  
 **Planned**: Power BI/Tableau dashboards, root-cause analysis, predictive modeling
+
+#SQL Analysis
+[see SQL queries](pharma_yield_sql_analysis)
