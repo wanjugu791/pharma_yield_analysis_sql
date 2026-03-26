@@ -35,6 +35,11 @@ GROUP BY Stage
 ORDER BY AvgYield desc;
 
 ##Example SQL Query
+------What is the average yield (%) per stage and per product?-----
+SELECT Stage, ProductName, 
+       ROUND(AVG((OutputWeight_kg/InputWeight_kg)*100),2) AS AvgYield
+FROM Pharma_ProcessPerformance_Extended
+GROUP BY Stage, ProductName
+ORDER BY Stage, ProductName;
 
-The full SQL file:
 [SQL analysis](https://github.com/wanjugu791/pharma_yield_analysis_sql/blob/main/pharma_yield_sql_analysis.sql)
