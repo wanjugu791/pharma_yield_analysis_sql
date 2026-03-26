@@ -1,0 +1,526 @@
+BatchID,ProductName,Stage,InputWeight_kg,OutputWeight_kg,Duration_hr,RoomTemp_C,Humidity_%,Operator,MachineID,DeviationType,Date,Remarks
+4001,Vitamin C 100mg,Granulation,190.6,188.9,3.1,24,,Frank,C-01,Capping,9/23/2025,Normal run
+4001,Vitamin C 100mg,Compression,157.1,156.3,5.4,22.8,53,Alice,C-01,Weight variation,9/20/2025,Slight delay
+4001,Vitamin C 100mg,Coating,169.5,168.2,5,25.5,44,Alice,CT-03,Uneven coating,9/10/2025,Deviated yield
+4002,Omeprazole 20mg,Granulation,136.9,135.5,4.8,25.5,50,Frank,CT-01,Capping,10/1/2025,Deviated yield
+4002,Omeprazole 20mg,Compression,197.9,194.5,5.3,25.2,44,Bob,C-03,Sticking,9/17/2025,Deviated yield
+4002,Omeprazole 20mg,Coating,134.9,130.7,3.7,22.9,53,Frank,CT-03,Sticking,9/27/2025,Minor loss
+4003,Metformin 500mg,Granulation,197.9,194.5,3.1,23.7,,Alice,G-02,Peeling,9/30/2025,Humidity issue
+4003,Metformin 500mg,Compression,156.3,155.4,4.7,23.7,,Henry,CT-01,Weight variation,9/30/2025,Humidity issue
+4003,Metformin 500mg,Coating,125,122.5,4.1,26,,David,G-01,Uneven coating,9/20/2025,Minor loss
+4004,Amoxicillin 250mg,Granulation,168.4,162.8,5.4,23.3,41,Bob,C-03,Weight variation,9/23/2025,Within spec
+4004,Amoxicillin 250mg,Compression,178.6,176.6,3.3,25.5,40,David,CT-01,Spillage,9/17/2025,Rework required
+4004,Amoxicillin 250mg,Coating,126.7,124.8,3.9,24,48,Isaac,G-03,Spillage,9/15/2025,Humidity issue
+4005,Ibuprofen 200mg,Granulation,187.3,181.3,5.5,22.2,,Isaac,G-03,Peeling,9/12/2025,Minor loss
+4005,Ibuprofen 200mg,Compression,150.6,149,5,25.5,,Alice,C-01,Capping,9/7/2025,Within spec
+4005,Ibuprofen 200mg,Coating,115.3,114.3,3.5,23.1,52,Charlie,C-03,Uneven coating,9/27/2025,Within spec
+4006,Cetirizine 10mg,Granulation,165.3,163.3,4.7,25.3,,Grace,CT-02,None,9/11/2025,Normal run
+4006,Cetirizine 10mg,Compression,124.4,123.5,3.6,24.2,52,Isaac,CT-03,Capping,9/30/2025,Slight delay
+4006,Cetirizine 10mg,Coating,180.4,176.7,5,24.6,45,Charlie,G-01,Peeling,9/28/2025,Humidity issue
+4007,Paracetamol 500mg,Granulation,198.1,191.8,3.4,24.4,43,David,CT-04,Sticking,9/1/2025,Deviated yield
+4007,Paracetamol 500mg,Compression,171.9,170.3,4,25.5,50,Henry,G-03,None,9/24/2025,Rework required
+4007,Paracetamol 500mg,Coating,128.5,127,3.4,23.8,43,Frank,G-01,Uneven coating,9/20/2025,Within spec
+4008,Ibuprofen 200mg,Granulation,187,183.3,4.1,22.9,50,Grace,G-03,Capping,9/18/2025,Deviated yield
+4008,Ibuprofen 200mg,Compression,147.2,142.4,5.5,24.3,45,Alice,CT-04,None,9/12/2025,Deviated yield
+4008,Ibuprofen 200mg,Coating,172.1,170.8,5.2,25.8,,Alice,CT-01,Weight variation,10/1/2025,Within spec
+4009,Cetirizine 10mg,Granulation,124.1,122,3.9,22.6,54,Henry,G-02,Weight variation,9/3/2025,Normal run
+4009,Cetirizine 10mg,Compression,173,168.8,4.4,22.5,46,Isaac,G-01,Sticking,9/11/2025,Slight delay
+4009,Cetirizine 10mg,Coating,171.4,170.4,3.8,23.3,,Isaac,G-01,Sticking,9/17/2025,Slight delay
+4010,Omeprazole 20mg,Granulation,130.1,126.9,3.6,22.7,41,Isaac,CT-02,None,9/10/2025,Minor loss
+4010,Omeprazole 20mg,Compression,130.7,129,3.5,25.9,,Bob,CT-04,Spillage,9/16/2025,Normal run
+4010,Omeprazole 20mg,Coating,136.7,135.2,3.3,23.4,41,David,CT-01,None,9/2/2025,Humidity issue
+4011,Amoxicillin 250mg,Granulation,116.8,115.9,3,23.2,,Grace,CT-02,Peeling,9/29/2025,Minor loss
+4011,Amoxicillin 250mg,Compression,196.4,191.6,4.3,24.2,49,Alice,CT-01,Weight variation,9/8/2025,Deviated yield
+4011,Amoxicillin 250mg,Coating,135.9,134.4,4.5,22.5,47,Eve,C-02,Capping,9/15/2025,Within spec
+4012,Vitamin C 100mg,Granulation,191,184.4,3.2,25.1,40,Isaac,C-01,Weight variation,9/27/2025,Normal run
+4012,Vitamin C 100mg,Compression,156.3,153.6,3.5,23.8,,Eve,G-01,None,9/30/2025,Deviated yield
+4012,Vitamin C 100mg,Coating,184.7,181.8,4.8,23.2,50,Frank,C-02,Capping,10/1/2025,Minor loss
+4013,Paracetamol 500mg,Granulation,189,185.8,5.5,23.2,,Bob,CT-03,Uneven coating,9/12/2025,Normal run
+4013,Paracetamol 500mg,Compression,182.7,176.9,4.1,25.7,50,Henry,CT-03,Spillage,9/25/2025,Rework required
+4013,Paracetamol 500mg,Coating,153.7,150.6,3.7,25.8,,Bob,CT-01,None,9/10/2025,Rework required
+4014,Metformin 500mg,Granulation,193.9,189.8,4.1,22.3,,Isaac,CT-03,Uneven coating,9/26/2025,Humidity issue
+4014,Metformin 500mg,Compression,180.2,174.6,5.4,23,,Grace,CT-04,Peeling,9/7/2025,Minor loss
+4014,Metformin 500mg,Coating,147.1,142.2,4.8,25.9,49,Henry,CT-03,Spillage,9/15/2025,Within spec
+4015,Ibuprofen 200mg,Granulation,166.1,161.8,3.2,22.3,51,Alice,C-03,Capping,9/21/2025,Humidity issue
+4015,Ibuprofen 200mg,Compression,192,187.4,5.4,23.9,42,Charlie,CT-03,None,9/5/2025,Deviated yield
+4015,Ibuprofen 200mg,Coating,113.8,113.1,4.4,22.3,,Grace,CT-04,None,9/25/2025,Rework required
+4016,Paracetamol 500mg,Granulation,155.7,154.7,5.2,24.6,,Bob,CT-02,Peeling,9/7/2025,Slight delay
+4016,Paracetamol 500mg,Compression,114.9,111.7,5.3,25.2,50,Isaac,C-03,None,9/15/2025,Slight delay
+4016,Paracetamol 500mg,Coating,154.8,150.8,4.5,24.5,45,Alice,G-03,Weight variation,9/17/2025,Slight delay
+4017,Vitamin C 100mg,Granulation,190.2,186.7,4.6,25.7,,David,C-02,Uneven coating,9/1/2025,Within spec
+4017,Vitamin C 100mg,Compression,129.1,127.5,3.3,25,,Bob,G-03,Capping,9/15/2025,Normal run
+4017,Vitamin C 100mg,Coating,169.6,165.1,3.4,24,49,Isaac,C-02,Peeling,10/1/2025,Minor loss
+4018,Cetirizine 10mg,Granulation,183,179.2,3.4,25.7,,Bob,C-03,Spillage,9/30/2025,Minor loss
+4018,Cetirizine 10mg,Compression,180.1,175.1,3.2,22.9,,Alice,CT-02,Weight variation,9/25/2025,Within spec
+4018,Cetirizine 10mg,Coating,116.8,115.8,4,23.4,50,Grace,CT-02,Uneven coating,9/17/2025,Within spec
+4019,Omeprazole 20mg,Granulation,117.2,116.1,3.1,25.2,55,Alice,C-03,Weight variation,9/10/2025,Deviated yield
+4019,Omeprazole 20mg,Compression,189.8,186.4,4.5,24.1,43,Isaac,CT-04,Uneven coating,9/6/2025,Humidity issue
+4019,Omeprazole 20mg,Coating,195.6,190.4,3.9,23.8,,Eve,CT-01,Weight variation,9/7/2025,Minor loss
+4020,Metformin 500mg,Granulation,121.4,118.8,3.9,22.6,50,Henry,CT-04,Spillage,9/21/2025,Rework required
+4020,Metformin 500mg,Compression,194,189.7,4.7,24.4,45,Charlie,CT-04,Peeling,10/1/2025,Minor loss
+4020,Metformin 500mg,Coating,163.1,161.6,4.1,24.6,49,Bob,G-03,None,9/8/2025,Within spec
+4021,Amoxicillin 250mg,Granulation,117.9,115.2,4.3,22.7,50,Grace,G-03,Peeling,9/8/2025,Normal run
+4021,Amoxicillin 250mg,Compression,150.5,147.2,4.8,22.6,48,Charlie,G-02,Weight variation,9/7/2025,Minor loss
+4021,Amoxicillin 250mg,Coating,166.4,161.5,3.4,23,,David,C-03,None,9/21/2025,Humidity issue
+4022,Paracetamol 500mg,Granulation,121.5,118.6,3,26,,David,CT-04,Peeling,9/27/2025,Minor loss
+4022,Paracetamol 500mg,Compression,197.3,192.1,4.9,22.5,55,Frank,CT-02,None,9/13/2025,Slight delay
+4022,Paracetamol 500mg,Coating,135.5,131.6,4.3,23.2,,Frank,CT-04,Weight variation,9/13/2025,Minor loss
+4023,Metformin 500mg,Granulation,128,125.5,4,24.9,,David,CT-01,Peeling,9/30/2025,Normal run
+4023,Metformin 500mg,Compression,163.7,162.8,4.2,22.1,45,David,CT-01,Peeling,9/12/2025,Humidity issue
+4023,Metformin 500mg,Coating,180.7,174.8,3.3,24.3,48,Grace,CT-04,Sticking,9/30/2025,Rework required
+4024,Vitamin C 100mg,Granulation,166.3,165.3,5,23.5,,Isaac,C-01,Peeling,9/26/2025,Within spec
+4024,Vitamin C 100mg,Compression,192.1,186.8,3.7,25.3,51,Frank,C-01,Capping,9/20/2025,Minor loss
+4024,Vitamin C 100mg,Coating,184.4,179.9,4.3,23.2,,Isaac,C-01,Uneven coating,9/24/2025,Humidity issue
+4025,Ibuprofen 200mg,Granulation,158.9,156.3,3.4,25.3,,Henry,G-02,Weight variation,9/23/2025,Within spec
+4025,Ibuprofen 200mg,Compression,179.1,174,4.3,24.9,47,Alice,G-01,Peeling,9/4/2025,Slight delay
+4025,Ibuprofen 200mg,Coating,137,134.3,3.2,24.8,44,Alice,CT-03,None,9/3/2025,Within spec
+4026,Cetirizine 10mg,Granulation,192,189.8,3.5,24.3,45,Isaac,CT-01,Weight variation,9/13/2025,Minor loss
+4026,Cetirizine 10mg,Compression,110.7,108,3.1,25,45,Frank,G-02,None,9/22/2025,Deviated yield
+4026,Cetirizine 10mg,Coating,188.5,184,4.6,24.7,43,Frank,CT-04,Uneven coating,9/6/2025,Within spec
+4027,Omeprazole 20mg,Granulation,121.8,119.7,4.1,23.5,,Grace,C-03,Weight variation,9/27/2025,Humidity issue
+4027,Omeprazole 20mg,Compression,167.7,164.6,5.4,23.7,,Grace,G-01,Spillage,9/4/2025,Rework required
+4027,Omeprazole 20mg,Coating,145.8,143.4,4.6,24,46,Frank,C-01,Weight variation,9/23/2025,Minor loss
+4028,Amoxicillin 250mg,Granulation,137.8,133.9,3.9,25.6,48,Isaac,CT-01,Peeling,9/28/2025,Humidity issue
+4028,Amoxicillin 250mg,Compression,133,130.8,3.3,22.3,,Henry,C-01,Peeling,9/23/2025,Humidity issue
+4028,Amoxicillin 250mg,Coating,118.1,115.5,4.8,23.5,46,Grace,CT-01,None,9/3/2025,Rework required
+4029,Vitamin C 100mg,Granulation,145.8,144.6,4.1,22.2,,Alice,C-01,Sticking,9/18/2025,Slight delay
+4029,Vitamin C 100mg,Compression,111.1,109.7,3.1,25.6,44,Alice,C-02,Capping,9/22/2025,Deviated yield
+4029,Vitamin C 100mg,Coating,192.9,186.8,5.2,23.8,41,Frank,C-03,Peeling,9/2/2025,Normal run
+4030,Amoxicillin 250mg,Granulation,194.1,187.5,3.6,24.2,49,Henry,G-01,Sticking,9/17/2025,Within spec
+4030,Amoxicillin 250mg,Compression,185.2,180.5,3.7,23.4,43,Grace,CT-03,Spillage,9/9/2025,Humidity issue
+4030,Amoxicillin 250mg,Coating,189,183,4.7,23.9,,Grace,C-03,Weight variation,9/12/2025,Slight delay
+4031,Cetirizine 10mg,Granulation,185.2,183.5,5.3,22.2,,Alice,CT-04,Uneven coating,9/10/2025,Deviated yield
+4031,Cetirizine 10mg,Compression,110.8,110.1,4.7,24.1,47,Alice,G-02,Spillage,9/14/2025,Deviated yield
+4031,Cetirizine 10mg,Coating,155.1,150.4,4,24.8,,Grace,G-03,None,9/11/2025,Minor loss
+4032,Ibuprofen 200mg,Granulation,192,189,5.2,25,49,Alice,C-01,Sticking,9/23/2025,Normal run
+4032,Ibuprofen 200mg,Compression,131.4,127.7,3.8,23.5,52,Charlie,G-02,Spillage,9/27/2025,Humidity issue
+4032,Ibuprofen 200mg,Coating,128.3,124.6,3.8,22.8,,Frank,G-01,Uneven coating,9/12/2025,Rework required
+4033,Paracetamol 500mg,Granulation,164.7,159.3,4.2,22.9,44,Frank,CT-02,Sticking,9/10/2025,Minor loss
+4033,Paracetamol 500mg,Compression,121.3,117.1,5.4,24.2,45,Grace,C-02,Weight variation,9/16/2025,Humidity issue
+4033,Paracetamol 500mg,Coating,194.4,190.5,4.3,25.6,,Charlie,C-01,Sticking,9/12/2025,Deviated yield
+4034,Omeprazole 20mg,Granulation,178.6,176.7,3.1,25.8,41,Bob,CT-01,Capping,9/2/2025,Deviated yield
+4034,Omeprazole 20mg,Compression,122.5,119.3,4.7,23.3,,David,C-03,Spillage,9/10/2025,Slight delay
+4034,Omeprazole 20mg,Coating,179.7,175.9,4,24,40,Bob,C-02,Capping,9/29/2025,Minor loss
+4035,Metformin 500mg,Granulation,143.5,140.4,3,23.2,44,Bob,C-01,Sticking,9/10/2025,Minor loss
+4035,Metformin 500mg,Compression,156.1,152.2,4.6,25.7,41,David,C-01,Sticking,9/18/2025,Normal run
+4035,Metformin 500mg,Coating,120.8,116.7,3.3,24.1,,David,C-03,Uneven coating,9/12/2025,Rework required
+4036,Paracetamol 500mg,Granulation,170.2,167.9,3.4,23.8,49,Grace,G-03,Spillage,9/8/2025,Humidity issue
+4036,Paracetamol 500mg,Compression,199.2,195.6,4.3,23.8,53,Charlie,C-03,None,9/11/2025,Deviated yield
+4036,Paracetamol 500mg,Coating,156.8,155.8,3.8,23.8,,Bob,C-02,Capping,9/7/2025,Slight delay
+4037,Cetirizine 10mg,Granulation,191.3,185.7,4.7,24.1,,Eve,C-03,None,9/1/2025,Slight delay
+4037,Cetirizine 10mg,Compression,134,132,4,25.6,,Charlie,G-02,Weight variation,9/12/2025,Deviated yield
+4037,Cetirizine 10mg,Coating,123.2,120,3,25.2,41,Grace,CT-01,Sticking,9/18/2025,Minor loss
+4038,Vitamin C 100mg,Granulation,129.9,126.9,5.3,23.4,52,Frank,C-02,Spillage,9/15/2025,Rework required
+4038,Vitamin C 100mg,Compression,129.6,127.2,4.1,25.2,54,Alice,CT-04,None,9/27/2025,Humidity issue
+4038,Vitamin C 100mg,Coating,110.2,107.7,5.1,22.3,44,Grace,G-01,None,9/15/2025,Minor loss
+4039,Amoxicillin 250mg,Granulation,154.2,152.6,4.3,25.7,49,Charlie,CT-04,Peeling,9/11/2025,Normal run
+4039,Amoxicillin 250mg,Compression,177.7,175.9,4.1,23.5,,Bob,G-02,Peeling,9/3/2025,Minor loss
+4039,Amoxicillin 250mg,Coating,140.2,138.5,4.2,22.3,48,David,CT-01,Capping,9/3/2025,Minor loss
+4040,Omeprazole 20mg,Granulation,121.6,119.9,4.4,23.4,47,Alice,C-03,Spillage,10/1/2025,Slight delay
+4040,Omeprazole 20mg,Compression,164.4,163.2,5.3,23.7,49,Grace,CT-04,Capping,9/21/2025,Rework required
+4040,Omeprazole 20mg,Coating,176.6,171.9,3.3,22.3,,Isaac,CT-03,Uneven coating,9/13/2025,Normal run
+4041,Metformin 500mg,Granulation,187.4,184.3,3.1,25,,Bob,C-03,Spillage,9/19/2025,Slight delay
+4041,Metformin 500mg,Compression,110.6,108.8,4.8,24.3,47,Alice,CT-03,Peeling,9/23/2025,Rework required
+4041,Metformin 500mg,Coating,169.6,166.2,3.5,22.8,40,Charlie,G-02,Spillage,9/1/2025,Humidity issue
+4042,Ibuprofen 200mg,Granulation,147.9,146.5,4.5,22.1,,Alice,G-03,Capping,9/5/2025,Normal run
+4042,Ibuprofen 200mg,Compression,186.3,181.5,4.4,23.6,44,David,CT-01,Capping,9/21/2025,Deviated yield
+4042,Ibuprofen 200mg,Coating,175.6,170.2,4.4,24.3,,Frank,CT-02,None,9/14/2025,Rework required
+4043,Ibuprofen 200mg,Granulation,123.4,120.1,4.6,25.2,,Bob,G-01,Sticking,9/5/2025,Normal run
+4043,Ibuprofen 200mg,Compression,121.1,117,4.2,25.3,54,Alice,CT-02,Weight variation,9/15/2025,Deviated yield
+4043,Ibuprofen 200mg,Coating,157.1,153.2,5,24.1,46,Alice,CT-02,Spillage,9/4/2025,Minor loss
+4044,Amoxicillin 250mg,Granulation,130.5,128.1,3.9,23.4,52,Isaac,G-02,Uneven coating,9/27/2025,Minor loss
+4044,Amoxicillin 250mg,Compression,149,147.3,3.8,24.8,40,Bob,C-02,Uneven coating,9/17/2025,Slight delay
+4044,Amoxicillin 250mg,Coating,170.3,165.8,5,25.7,42,Charlie,CT-03,Weight variation,9/28/2025,Normal run
+4045,Metformin 500mg,Granulation,151.6,149.7,3.6,22.4,43,Henry,C-02,Weight variation,9/20/2025,Humidity issue
+4045,Metformin 500mg,Compression,179.6,174.4,4.3,24.8,,Bob,G-02,Uneven coating,9/24/2025,Minor loss
+4045,Metformin 500mg,Coating,193.8,188,3.3,22.9,53,Frank,C-03,Sticking,9/20/2025,Humidity issue
+4046,Vitamin C 100mg,Granulation,157.6,154,4.8,24.7,51,David,G-02,Spillage,9/13/2025,Deviated yield
+4046,Vitamin C 100mg,Compression,123.8,121.4,3,23.8,45,Charlie,C-03,None,9/17/2025,Deviated yield
+4046,Vitamin C 100mg,Coating,129,127.5,5.4,22.3,,Charlie,CT-04,Peeling,9/23/2025,Humidity issue
+4047,Paracetamol 500mg,Granulation,139.9,135.3,4.2,24.7,,Alice,C-03,Peeling,9/9/2025,Deviated yield
+4047,Paracetamol 500mg,Compression,144.8,141.1,4.2,23.1,54,David,G-03,Sticking,9/3/2025,Normal run
+4047,Paracetamol 500mg,Coating,156.2,155.3,4.2,24.1,48,Henry,CT-03,None,9/25/2025,Normal run
+4048,Cetirizine 10mg,Granulation,187.6,182.7,3.8,24.2,,Grace,C-01,Uneven coating,9/7/2025,Humidity issue
+4048,Cetirizine 10mg,Compression,176.5,172.2,3.2,23.7,48,David,G-01,Uneven coating,9/8/2025,Deviated yield
+4048,Cetirizine 10mg,Coating,182.2,180.4,5.1,23.7,,Bob,CT-02,Uneven coating,9/7/2025,Rework required
+4049,Omeprazole 20mg,Granulation,130.1,126.7,3.9,25.4,55,Frank,CT-04,Capping,9/30/2025,Within spec
+4049,Omeprazole 20mg,Compression,115.4,111.8,3.1,23.9,,Eve,C-03,Uneven coating,9/28/2025,Slight delay
+4049,Omeprazole 20mg,Coating,182.6,178.6,4.2,22.4,,David,G-03,None,9/22/2025,Rework required
+4050,Cetirizine 10mg,Granulation,135.2,132.7,3.1,25.2,,Alice,CT-03,Spillage,9/3/2025,Humidity issue
+4050,Cetirizine 10mg,Compression,114.1,111.8,4.5,25.4,50,Isaac,CT-03,Capping,9/4/2025,Within spec
+4050,Cetirizine 10mg,Coating,178.1,174,5.1,24.3,,Frank,CT-03,Sticking,9/20/2025,Rework required
+4051,Paracetamol 500mg,Granulation,166.4,161.1,4,24.7,55,Frank,CT-02,Capping,9/27/2025,Deviated yield
+4051,Paracetamol 500mg,Compression,164.2,161.4,4.7,24.9,45,Eve,G-02,Peeling,9/15/2025,Humidity issue
+4051,Paracetamol 500mg,Coating,152,151.1,3.5,24.6,,Frank,C-01,Spillage,9/25/2025,Humidity issue
+4052,Amoxicillin 250mg,Granulation,149.8,148.9,3.5,25.8,55,Charlie,C-03,Uneven coating,9/21/2025,Within spec
+4052,Amoxicillin 250mg,Compression,155.1,151.5,4.7,23.3,48,Bob,G-01,Capping,9/21/2025,Normal run
+4052,Amoxicillin 250mg,Coating,138.7,136,3.2,23.5,,Alice,C-01,Weight variation,9/18/2025,Slight delay
+4053,Omeprazole 20mg,Granulation,140.8,139.6,4.2,23.4,,Charlie,C-02,None,9/29/2025,Humidity issue
+4053,Omeprazole 20mg,Compression,136.9,134.6,3.7,25.9,,Isaac,CT-01,Sticking,9/8/2025,Slight delay
+4053,Omeprazole 20mg,Coating,174.4,168.4,3.5,25.3,,Charlie,C-01,Capping,9/21/2025,Slight delay
+4054,Metformin 500mg,Granulation,132.2,127.7,4.5,25,48,Charlie,CT-01,Sticking,9/6/2025,Slight delay
+4054,Metformin 500mg,Compression,189.2,186.6,4.8,22.3,51,Eve,CT-02,Weight variation,9/15/2025,Rework required
+4054,Metformin 500mg,Coating,170.4,169.2,5.2,23.4,,Alice,CT-03,Spillage,9/9/2025,Deviated yield
+4055,Ibuprofen 200mg,Granulation,148,143.6,5,24.3,,Henry,G-03,Capping,9/11/2025,Deviated yield
+4055,Ibuprofen 200mg,Compression,175,172.1,4.5,25.6,42,Eve,G-01,Sticking,9/26/2025,Normal run
+4055,Ibuprofen 200mg,Coating,135.7,133.9,3.5,25.7,44,David,CT-03,None,9/21/2025,Within spec
+4056,Vitamin C 100mg,Granulation,132.2,129.2,3.2,24.8,52,Henry,C-03,Spillage,9/28/2025,Minor loss
+4056,Vitamin C 100mg,Compression,181.5,175.5,5.1,23.5,41,Frank,CT-01,Capping,9/14/2025,Deviated yield
+4056,Vitamin C 100mg,Coating,137.2,133.2,3.4,22.5,49,Grace,G-02,Capping,9/23/2025,Deviated yield
+4057,Ibuprofen 200mg,Granulation,114.9,111.3,4.3,23.3,49,Charlie,CT-01,Capping,9/5/2025,Slight delay
+4057,Ibuprofen 200mg,Compression,117.5,116.1,4.1,23.7,42,Frank,CT-02,Sticking,9/3/2025,Slight delay
+4057,Ibuprofen 200mg,Coating,151.4,147.7,4.6,25.8,,Isaac,CT-01,None,9/25/2025,Slight delay
+4058,Metformin 500mg,Granulation,137.9,136.1,4.6,25.4,,David,C-02,Sticking,9/28/2025,Deviated yield
+4058,Metformin 500mg,Compression,119.1,114.9,4.5,23.7,,Grace,CT-04,Sticking,9/27/2025,Normal run
+4058,Metformin 500mg,Coating,164.3,159.4,5,26,,Grace,C-03,Capping,9/4/2025,Rework required
+4059,Cetirizine 10mg,Granulation,138,136,4.5,25.6,44,Bob,C-03,Sticking,9/18/2025,Minor loss
+4059,Cetirizine 10mg,Compression,169.4,166.5,4.3,24.2,,Frank,G-01,Sticking,9/12/2025,Slight delay
+4059,Cetirizine 10mg,Coating,158.5,154.5,5.1,22.4,47,David,CT-01,Uneven coating,9/21/2025,Rework required
+4060,Vitamin C 100mg,Granulation,191.1,189.1,3.3,25.2,,Frank,C-01,Weight variation,9/15/2025,Rework required
+4060,Vitamin C 100mg,Compression,129.6,128.2,5.2,23.4,40,David,CT-03,Spillage,9/1/2025,Within spec
+4060,Vitamin C 100mg,Coating,149.2,145.8,4.1,23.9,,Henry,C-02,Capping,9/23/2025,Humidity issue
+4061,Paracetamol 500mg,Granulation,161.8,157,4,25.2,,Alice,CT-04,Sticking,9/2/2025,Humidity issue
+4061,Paracetamol 500mg,Compression,135.8,135,3.1,23.3,,Frank,C-02,Uneven coating,9/21/2025,Deviated yield
+4061,Paracetamol 500mg,Coating,200,195.1,5,22.7,55,Eve,CT-02,Spillage,9/18/2025,Normal run
+4062,Omeprazole 20mg,Granulation,181.3,177,3,23.8,,Isaac,C-01,Sticking,10/1/2025,Deviated yield
+4062,Omeprazole 20mg,Compression,124.5,122.7,5.1,24,,David,G-02,None,9/4/2025,Normal run
+4062,Omeprazole 20mg,Coating,146,144.4,5.2,24.6,43,Isaac,C-01,Peeling,9/27/2025,Humidity issue
+4063,Amoxicillin 250mg,Granulation,140.7,136.3,5.4,22.7,,Frank,C-03,None,9/8/2025,Humidity issue
+4063,Amoxicillin 250mg,Compression,161.8,158,5.3,25.9,40,Grace,CT-02,None,9/13/2025,Rework required
+4063,Amoxicillin 250mg,Coating,111.9,108.2,3.9,24.6,51,Eve,C-03,Peeling,9/13/2025,Humidity issue
+4064,Vitamin C 100mg,Granulation,165,161.9,3.7,24.1,41,Charlie,CT-01,Peeling,9/4/2025,Normal run
+4064,Vitamin C 100mg,Compression,154.1,150.9,5,24.4,,David,C-02,Weight variation,9/19/2025,Rework required
+4064,Vitamin C 100mg,Coating,152.2,148.4,4.8,23.7,,Eve,CT-03,Peeling,9/30/2025,Slight delay
+4065,Amoxicillin 250mg,Granulation,198.2,194,4.9,25.2,,Isaac,C-03,Uneven coating,9/25/2025,Deviated yield
+4065,Amoxicillin 250mg,Compression,169.6,165.8,4.2,24.3,,Eve,G-03,Capping,9/3/2025,Rework required
+4065,Amoxicillin 250mg,Coating,179.5,177,3.7,22.2,,Eve,CT-02,Sticking,9/9/2025,Humidity issue
+4066,Paracetamol 500mg,Granulation,110.2,107.2,4.8,23.4,,Alice,C-03,Uneven coating,9/3/2025,Normal run
+4066,Paracetamol 500mg,Compression,148.3,146.3,4.5,22.4,51,Alice,C-01,Sticking,9/15/2025,Minor loss
+4066,Paracetamol 500mg,Coating,165.3,160.6,3.5,25.9,40,David,C-03,None,10/1/2025,Deviated yield
+4067,Metformin 500mg,Granulation,173.8,167.8,4.2,23.2,48,Alice,C-03,Peeling,9/8/2025,Slight delay
+4067,Metformin 500mg,Compression,175.1,169.7,4.5,24.4,50,Eve,C-01,Weight variation,9/5/2025,Rework required
+4067,Metformin 500mg,Coating,149.6,144.6,4.7,23.9,,Alice,CT-01,None,9/8/2025,Rework required
+4068,Omeprazole 20mg,Granulation,163.3,157.9,5,22.3,53,Bob,G-01,Capping,9/17/2025,Humidity issue
+4068,Omeprazole 20mg,Compression,154.6,152.9,5.2,23.9,48,Henry,G-01,None,9/26/2025,Humidity issue
+4068,Omeprazole 20mg,Coating,128.8,126.2,3.4,22.1,55,Frank,CT-04,Weight variation,10/1/2025,Humidity issue
+4069,Cetirizine 10mg,Granulation,116.6,112.9,3.9,23.1,,Charlie,CT-03,Capping,9/29/2025,Rework required
+4069,Cetirizine 10mg,Compression,160.8,155.7,4.6,25.6,55,Alice,CT-02,Weight variation,9/22/2025,Within spec
+4069,Cetirizine 10mg,Coating,156.4,151.6,3.8,22.7,,Charlie,G-01,Weight variation,10/1/2025,Deviated yield
+4070,Ibuprofen 200mg,Granulation,184.2,178.6,3.7,23.2,,Charlie,G-01,Weight variation,9/9/2025,Humidity issue
+4070,Ibuprofen 200mg,Compression,181.4,179.2,4.8,23.9,46,Isaac,G-02,Uneven coating,10/1/2025,Rework required
+4070,Ibuprofen 200mg,Coating,191.4,187.3,4.6,25.3,,Eve,CT-01,Sticking,9/23/2025,Humidity issue
+4071,Vitamin C 100mg,Granulation,156.4,154.2,3.3,22.2,45,Alice,C-03,Peeling,9/17/2025,Minor loss
+4071,Vitamin C 100mg,Compression,140.7,137.9,4.7,26,,Bob,CT-01,Peeling,9/15/2025,Minor loss
+4071,Vitamin C 100mg,Coating,131.4,128.2,3.8,22.4,53,David,C-03,Uneven coating,9/6/2025,Humidity issue
+4072,Metformin 500mg,Granulation,141,137.4,3.6,24.1,47,Grace,CT-02,Capping,9/4/2025,Rework required
+4072,Metformin 500mg,Compression,184.3,182.2,3.5,24,55,Bob,G-03,Peeling,9/6/2025,Minor loss
+4072,Metformin 500mg,Coating,144.2,142,5.5,22.6,53,Frank,G-02,Uneven coating,9/14/2025,Normal run
+4073,Omeprazole 20mg,Granulation,181.2,179,5.3,24.3,47,Grace,G-01,None,10/1/2025,Slight delay
+4073,Omeprazole 20mg,Compression,133.2,128.6,3.1,25,,Frank,C-03,Capping,9/29/2025,Deviated yield
+4073,Omeprazole 20mg,Coating,132.7,131.8,3.5,24.1,47,Henry,G-02,Capping,9/3/2025,Within spec
+4074,Cetirizine 10mg,Granulation,192.6,188.1,3.5,25.5,42,Alice,CT-01,Uneven coating,9/30/2025,Slight delay
+4074,Cetirizine 10mg,Compression,134.7,132.1,5.4,24,,David,C-03,Spillage,9/17/2025,Humidity issue
+4074,Cetirizine 10mg,Coating,129.6,128,3.9,23.3,,David,CT-04,Weight variation,9/10/2025,Minor loss
+4075,Ibuprofen 200mg,Granulation,154.9,154.1,4.3,23.6,,Eve,CT-02,Peeling,9/16/2025,Deviated yield
+4075,Ibuprofen 200mg,Compression,178.5,176.7,4.4,25.2,,Bob,C-01,Weight variation,9/14/2025,Rework required
+4075,Ibuprofen 200mg,Coating,123.2,119.6,4.4,24.2,,Bob,C-01,None,9/18/2025,Slight delay
+4076,Amoxicillin 250mg,Granulation,196,189.4,3.9,22.2,55,Grace,CT-02,Spillage,9/28/2025,Deviated yield
+4076,Amoxicillin 250mg,Compression,178.9,173.1,3.6,23.8,,Frank,CT-03,Spillage,9/25/2025,Slight delay
+4076,Amoxicillin 250mg,Coating,178.9,176.1,3.2,25.2,41,Henry,C-01,None,9/2/2025,Slight delay
+4077,Paracetamol 500mg,Granulation,185.2,179.9,5,23.3,45,Alice,C-01,Uneven coating,9/9/2025,Humidity issue
+4077,Paracetamol 500mg,Compression,148.7,144.3,5,24.9,46,Grace,CT-01,Weight variation,9/9/2025,Humidity issue
+4077,Paracetamol 500mg,Coating,154.5,153,4.2,24.3,45,Henry,C-01,Weight variation,9/18/2025,Normal run
+4078,Paracetamol 500mg,Granulation,164,159.4,5.3,25.5,,David,CT-04,Spillage,9/24/2025,Humidity issue
+4078,Paracetamol 500mg,Compression,176.3,170.6,3.2,25.9,55,David,C-01,None,9/10/2025,Humidity issue
+4078,Paracetamol 500mg,Coating,136.9,132.4,4.1,25.8,51,Isaac,C-02,Sticking,9/15/2025,Minor loss
+4079,Amoxicillin 250mg,Granulation,145.5,142.3,3.8,24.6,41,Eve,CT-04,Capping,9/14/2025,Within spec
+4079,Amoxicillin 250mg,Compression,157.2,153.7,5.3,24,53,Bob,CT-04,None,9/27/2025,Rework required
+4079,Amoxicillin 250mg,Coating,131.8,127.6,4.5,24.4,49,Alice,C-01,Peeling,9/9/2025,Deviated yield
+4080,Ibuprofen 200mg,Granulation,144.1,142.2,4.4,25.6,,Frank,C-01,Uneven coating,9/3/2025,Within spec
+4080,Ibuprofen 200mg,Compression,122.6,118.9,4.6,23.1,,Bob,G-01,Capping,9/13/2025,Within spec
+4080,Ibuprofen 200mg,Coating,115.6,114.4,3.6,24.8,47,Alice,C-01,Capping,9/2/2025,Normal run
+4081,Omeprazole 20mg,Granulation,154.4,150.2,4.8,22.8,,Henry,G-01,Sticking,9/9/2025,Rework required
+4081,Omeprazole 20mg,Compression,176.9,175.2,3.2,25.1,55,Frank,CT-04,Weight variation,9/5/2025,Normal run
+4081,Omeprazole 20mg,Coating,183,177.2,3.7,24.9,,Henry,CT-01,Sticking,9/13/2025,Minor loss
+4082,Cetirizine 10mg,Granulation,112.7,111.4,4.4,23.9,,Charlie,CT-01,Weight variation,9/17/2025,Deviated yield
+4082,Cetirizine 10mg,Compression,149,147.2,5.3,24.5,,Charlie,G-01,Weight variation,9/28/2025,Deviated yield
+4082,Cetirizine 10mg,Coating,191.4,187,4.4,24.1,,Henry,CT-01,Uneven coating,9/27/2025,Humidity issue
+4083,Vitamin C 100mg,Granulation,190.7,187.2,3,22.4,53,Alice,CT-01,Weight variation,10/1/2025,Minor loss
+4083,Vitamin C 100mg,Compression,138.7,135.6,4.7,25.8,,Isaac,C-02,Peeling,9/22/2025,Rework required
+4083,Vitamin C 100mg,Coating,156.4,153.9,4.4,24.4,45,Bob,CT-04,Capping,9/29/2025,Deviated yield
+4084,Metformin 500mg,Granulation,131.6,130.5,3.7,23.6,,Frank,CT-04,Spillage,9/26/2025,Within spec
+4084,Metformin 500mg,Compression,169.4,167.7,5,24,,Isaac,C-02,Uneven coating,9/26/2025,Normal run
+4084,Metformin 500mg,Coating,172.7,171.4,4.5,23.1,52,Bob,CT-04,Peeling,9/30/2025,Deviated yield
+4085,Vitamin C 100mg,Granulation,186.6,183.2,4.2,24.3,42,Alice,G-01,Capping,9/3/2025,Normal run
+4085,Vitamin C 100mg,Compression,148.7,144.1,5.2,23.7,54,Isaac,G-01,None,9/26/2025,Normal run
+4085,Vitamin C 100mg,Coating,194.5,191.8,3.3,23.8,,David,G-01,Spillage,9/28/2025,Humidity issue
+4086,Amoxicillin 250mg,Granulation,143,141.7,4.6,25,54,Henry,G-03,Weight variation,9/12/2025,Within spec
+4086,Amoxicillin 250mg,Compression,164.5,163.5,3.4,24.8,,Bob,CT-02,Weight variation,10/1/2025,Within spec
+4086,Amoxicillin 250mg,Coating,160.4,156.2,3.9,23.7,,Bob,C-01,None,9/5/2025,Within spec
+4087,Omeprazole 20mg,Granulation,165.7,161.8,4.8,22.3,44,Grace,CT-04,Capping,9/29/2025,Deviated yield
+4087,Omeprazole 20mg,Compression,189.6,185.4,4.4,25.8,49,Charlie,CT-03,Weight variation,9/22/2025,Rework required
+4087,Omeprazole 20mg,Coating,172.5,167.8,4.5,25.8,43,Bob,G-02,Uneven coating,9/20/2025,Rework required
+4088,Ibuprofen 200mg,Granulation,117.2,114,5.4,25.3,50,Henry,G-01,Capping,9/5/2025,Humidity issue
+4088,Ibuprofen 200mg,Compression,170.5,166.4,5.5,22.1,45,Bob,G-03,Sticking,9/25/2025,Normal run
+4088,Ibuprofen 200mg,Coating,173,171.6,5.1,24.4,,Bob,CT-02,Capping,9/27/2025,Rework required
+4089,Metformin 500mg,Granulation,188.6,186.9,4.1,23.6,44,David,C-03,Weight variation,9/22/2025,Rework required
+4089,Metformin 500mg,Compression,124.6,123.4,4.4,25.4,,Alice,CT-01,Sticking,9/29/2025,Within spec
+4089,Metformin 500mg,Coating,137.5,135.9,5.3,24.4,,Isaac,G-02,Capping,9/12/2025,Normal run
+4090,Paracetamol 500mg,Granulation,178.1,174.3,4,22.4,52,Frank,C-02,Peeling,10/1/2025,Deviated yield
+4090,Paracetamol 500mg,Compression,159.7,157,5,24.9,,David,C-01,Peeling,9/21/2025,Deviated yield
+4090,Paracetamol 500mg,Coating,179.6,176.9,5,25,,Isaac,G-02,Sticking,9/30/2025,Slight delay
+4091,Cetirizine 10mg,Granulation,161.9,156.9,3.2,25.1,,Eve,C-02,Weight variation,9/27/2025,Humidity issue
+4091,Cetirizine 10mg,Compression,182.9,178.6,3.3,24.9,47,David,G-01,Sticking,9/3/2025,Slight delay
+4091,Cetirizine 10mg,Coating,196.4,192,5.2,25.3,,Frank,C-03,Spillage,9/8/2025,Minor loss
+4092,Ibuprofen 200mg,Granulation,189.3,185.7,4.6,23.7,55,Charlie,G-03,None,9/2/2025,Slight delay
+4092,Ibuprofen 200mg,Compression,147,146.2,5,24.7,54,Henry,CT-03,Uneven coating,9/13/2025,Minor loss
+4092,Ibuprofen 200mg,Coating,197.7,193.6,4.9,22.4,46,David,CT-01,Uneven coating,9/29/2025,Within spec
+4093,Vitamin C 100mg,Granulation,118.2,115.3,4.3,24.2,,Bob,G-01,Sticking,9/22/2025,Within spec
+4093,Vitamin C 100mg,Compression,196.4,193.1,3.2,23.4,,Henry,CT-03,Spillage,9/10/2025,Slight delay
+4093,Vitamin C 100mg,Coating,184.2,179.7,4,23.5,53,Charlie,G-03,Uneven coating,9/19/2025,Deviated yield
+4094,Paracetamol 500mg,Granulation,113.1,111,3.5,22.5,50,Isaac,C-02,Capping,9/21/2025,Slight delay
+4094,Paracetamol 500mg,Compression,189,182.9,5.3,24.4,42,Isaac,C-03,Weight variation,9/19/2025,Normal run
+4094,Paracetamol 500mg,Coating,193,186.4,4.7,23.7,,David,CT-01,Spillage,9/8/2025,Rework required
+4095,Amoxicillin 250mg,Granulation,176.6,174,4.1,23.2,44,Bob,G-02,None,9/26/2025,Deviated yield
+4095,Amoxicillin 250mg,Compression,127.8,123.8,3.5,25.2,41,Frank,CT-01,Uneven coating,9/18/2025,Normal run
+4095,Amoxicillin 250mg,Coating,191.5,186.2,4.2,22.2,,Isaac,C-01,Capping,9/29/2025,Rework required
+4096,Metformin 500mg,Granulation,149.1,146.5,5,25,54,Isaac,G-01,Capping,9/15/2025,Within spec
+4096,Metformin 500mg,Compression,162.7,158.5,4.1,24.3,,Frank,CT-03,None,9/8/2025,Normal run
+4096,Metformin 500mg,Coating,128.3,123.8,4.9,24.7,52,Henry,G-03,Capping,9/28/2025,Deviated yield
+4097,Cetirizine 10mg,Granulation,122.6,120.9,3.1,24.6,,Eve,G-03,Capping,9/13/2025,Minor loss
+4097,Cetirizine 10mg,Compression,115.9,112.1,4.1,25.7,48,Henry,CT-02,Peeling,10/1/2025,Normal run
+4097,Cetirizine 10mg,Coating,175.4,171.4,4.8,24.9,55,Alice,CT-02,Peeling,9/3/2025,Deviated yield
+4098,Omeprazole 20mg,Granulation,195.4,190.8,3.8,24.8,45,Frank,G-02,Spillage,9/2/2025,Rework required
+4098,Omeprazole 20mg,Compression,174.7,173.2,5.4,22.4,,Isaac,C-02,Spillage,9/17/2025,Normal run
+4098,Omeprazole 20mg,Coating,163.1,161.9,3.8,24.1,,Alice,CT-02,None,9/19/2025,Normal run
+4099,Amoxicillin 250mg,Granulation,192.8,190.2,3.3,25.6,,Alice,G-01,Capping,9/29/2025,Normal run
+4099,Amoxicillin 250mg,Compression,126,121.7,5.2,25.7,,Frank,C-03,Peeling,9/4/2025,Humidity issue
+4099,Amoxicillin 250mg,Coating,188.7,182.3,3.8,24.4,,Henry,G-02,Capping,9/10/2025,Slight delay
+4100,Cetirizine 10mg,Granulation,181.5,180.2,3.6,22.7,,Grace,CT-02,Peeling,9/23/2025,Humidity issue
+4100,Cetirizine 10mg,Compression,193.5,188,4.7,23.4,44,Grace,G-01,None,9/8/2025,Rework required
+4100,Cetirizine 10mg,Coating,189.2,185.6,3.5,22.4,,Henry,CT-02,Spillage,10/1/2025,Rework required
+4101,Ibuprofen 200mg,Granulation,153.3,151.4,4.4,22.5,44,Charlie,C-02,Peeling,9/2/2025,Slight delay
+4101,Ibuprofen 200mg,Compression,133.5,129.3,5,22.6,,Charlie,G-01,Weight variation,9/13/2025,Rework required
+4101,Ibuprofen 200mg,Coating,150.7,146.1,3.5,25.3,55,Frank,CT-02,Peeling,9/17/2025,Slight delay
+4102,Vitamin C 100mg,Granulation,184,182.5,4.8,24.4,53,David,C-02,Spillage,9/16/2025,Within spec
+4102,Vitamin C 100mg,Compression,123.1,119.2,4.7,24.8,52,Eve,G-01,Sticking,9/26/2025,Rework required
+4102,Vitamin C 100mg,Coating,159.3,155.7,5,25.9,43,Bob,G-03,Uneven coating,9/28/2025,Humidity issue
+4103,Metformin 500mg,Granulation,114.1,112.4,4.8,24.5,,Bob,C-03,Sticking,9/13/2025,Humidity issue
+4103,Metformin 500mg,Compression,169.8,164.2,3.8,24.1,48,Bob,CT-04,None,9/13/2025,Within spec
+4103,Metformin 500mg,Coating,146.8,143.8,5,23.3,,Eve,G-03,Spillage,9/27/2025,Within spec
+4104,Omeprazole 20mg,Granulation,134,130.9,3.1,22.6,48,David,CT-03,Weight variation,9/13/2025,Humidity issue
+4104,Omeprazole 20mg,Compression,180.4,176.5,5.1,24.8,45,Eve,G-02,Uneven coating,9/21/2025,Normal run
+4104,Omeprazole 20mg,Coating,139.4,137.3,4.3,22.2,43,David,C-01,Sticking,9/19/2025,Deviated yield
+4105,Paracetamol 500mg,Granulation,162.8,158.4,5.3,24.2,,Henry,CT-01,Sticking,9/20/2025,Normal run
+4105,Paracetamol 500mg,Compression,130.9,126.8,4,24.7,42,Eve,CT-02,Capping,9/21/2025,Normal run
+4105,Paracetamol 500mg,Coating,117.1,114.2,4.3,25.6,47,Bob,CT-02,Weight variation,9/9/2025,Within spec
+4106,Vitamin C 100mg,Granulation,137.8,133.1,3.5,25.7,49,Charlie,G-03,Weight variation,9/9/2025,Humidity issue
+4106,Vitamin C 100mg,Compression,150.9,147.2,3.6,24.1,,Henry,C-01,Uneven coating,9/10/2025,Within spec
+4106,Vitamin C 100mg,Coating,131.9,128.7,5.2,23.6,,Isaac,G-01,Sticking,9/16/2025,Humidity issue
+4107,Paracetamol 500mg,Granulation,149.1,145.5,3.2,23.4,42,Grace,CT-04,Peeling,9/23/2025,Slight delay
+4107,Paracetamol 500mg,Compression,148.1,144.6,3.8,23.1,,Frank,G-02,Capping,9/3/2025,Humidity issue
+4107,Paracetamol 500mg,Coating,190.7,187.5,4.3,25.2,55,Isaac,G-02,Uneven coating,9/9/2025,Minor loss
+4108,Metformin 500mg,Granulation,125,123.7,3.3,23.6,51,Frank,CT-03,Spillage,9/29/2025,Deviated yield
+4108,Metformin 500mg,Compression,137.1,136.3,4.7,22.6,,Alice,G-02,Spillage,9/29/2025,Minor loss
+4108,Metformin 500mg,Coating,191.9,187.1,4.5,24.7,,Grace,CT-02,Capping,9/7/2025,Rework required
+4109,Omeprazole 20mg,Granulation,121.8,119.4,5.2,24.4,,Charlie,CT-04,None,9/5/2025,Slight delay
+4109,Omeprazole 20mg,Compression,135.1,131.3,3.2,25.6,,Charlie,CT-03,None,9/18/2025,Within spec
+4109,Omeprazole 20mg,Coating,148.5,143.4,3.5,24.5,50,Charlie,C-03,Peeling,10/1/2025,Within spec
+4110,Cetirizine 10mg,Granulation,194.4,189.8,3.8,22.9,,David,CT-01,Peeling,9/12/2025,Normal run
+4110,Cetirizine 10mg,Compression,190.2,187.8,4.9,24.4,45,David,G-03,Uneven coating,9/24/2025,Within spec
+4110,Cetirizine 10mg,Coating,147.3,143,3.8,22.7,51,Frank,G-03,Uneven coating,9/1/2025,Within spec
+4111,Ibuprofen 200mg,Granulation,195.6,190.7,3.5,23.5,,Isaac,C-03,Uneven coating,9/9/2025,Deviated yield
+4111,Ibuprofen 200mg,Compression,152.4,148.5,3.3,22,44,Frank,G-01,None,9/10/2025,Normal run
+4111,Ibuprofen 200mg,Coating,142.8,141.8,3.8,23,,David,C-02,Sticking,9/4/2025,Rework required
+4112,Amoxicillin 250mg,Granulation,118.6,117.1,3.7,23,,Eve,CT-03,Weight variation,9/23/2025,Deviated yield
+4112,Amoxicillin 250mg,Compression,126.6,125.7,4.2,25.9,45,Eve,G-03,Spillage,9/29/2025,Within spec
+4112,Amoxicillin 250mg,Coating,151.5,147.2,5,25.9,48,Frank,C-03,Weight variation,9/30/2025,Humidity issue
+4113,Cetirizine 10mg,Granulation,150.7,145.6,4.5,23.7,55,Grace,C-01,Capping,9/11/2025,Slight delay
+4113,Cetirizine 10mg,Compression,192.9,189.5,3.5,24.7,46,Isaac,CT-01,Weight variation,9/17/2025,Humidity issue
+4113,Cetirizine 10mg,Coating,175.3,174.1,5.3,24.4,,Bob,CT-04,Weight variation,9/18/2025,Rework required
+4114,Omeprazole 20mg,Granulation,173.7,171.7,3.3,25.2,,Henry,CT-04,Uneven coating,9/12/2025,Within spec
+4114,Omeprazole 20mg,Compression,119.7,115.8,4.4,24.7,44,Henry,CT-02,Weight variation,9/14/2025,Rework required
+4114,Omeprazole 20mg,Coating,138.6,136.1,4.6,22.8,43,Alice,CT-03,None,9/16/2025,Normal run
+4115,Paracetamol 500mg,Granulation,114.6,113.3,5.3,23.4,,David,C-03,Capping,9/22/2025,Rework required
+4115,Paracetamol 500mg,Compression,180.6,179.1,4.9,22.8,45,Henry,G-02,None,9/26/2025,Rework required
+4115,Paracetamol 500mg,Coating,146,143,5,25.8,,David,CT-02,Uneven coating,9/7/2025,Humidity issue
+4116,Amoxicillin 250mg,Granulation,117.2,113.2,3.5,25.7,42,David,G-03,Capping,9/28/2025,Minor loss
+4116,Amoxicillin 250mg,Compression,149.6,148.3,4.1,22.6,,Eve,G-03,Sticking,9/20/2025,Normal run
+4116,Amoxicillin 250mg,Coating,191.3,187.1,3.9,25.4,50,Charlie,C-01,Peeling,9/27/2025,Humidity issue
+4117,Metformin 500mg,Granulation,134.7,133.2,3.1,24.8,50,David,CT-01,Uneven coating,9/28/2025,Humidity issue
+4117,Metformin 500mg,Compression,125.7,124.7,3.1,24.1,42,Alice,CT-03,None,9/11/2025,Deviated yield
+4117,Metformin 500mg,Coating,178.7,173.8,3.8,22.8,40,Isaac,C-03,Uneven coating,9/14/2025,Minor loss
+4118,Vitamin C 100mg,Granulation,165.1,164.2,3.6,23.4,,Bob,CT-04,Capping,9/7/2025,Normal run
+4118,Vitamin C 100mg,Compression,115,112.3,3.2,22.2,,Eve,G-03,Uneven coating,9/22/2025,Rework required
+4118,Vitamin C 100mg,Coating,184.5,182,3.8,22.9,53,Isaac,C-03,Capping,9/3/2025,Normal run
+4119,Ibuprofen 200mg,Granulation,187.4,182.9,4.8,25.9,,Charlie,C-02,None,9/3/2025,Minor loss
+4119,Ibuprofen 200mg,Compression,124.9,123.6,3.6,25.5,,Charlie,G-03,Peeling,10/1/2025,Slight delay
+4119,Ibuprofen 200mg,Coating,163.3,159.4,3.7,24,,David,C-02,Weight variation,9/19/2025,Rework required
+4120,Cetirizine 10mg,Granulation,117.3,116,4.7,24,,David,CT-04,None,9/25/2025,Slight delay
+4120,Cetirizine 10mg,Compression,150.1,146.7,4.9,24.3,,David,CT-04,Weight variation,9/19/2025,Humidity issue
+4120,Cetirizine 10mg,Coating,154.8,153.3,4.4,24.9,,Charlie,G-02,Weight variation,9/3/2025,Normal run
+4121,Amoxicillin 250mg,Granulation,182.5,179.3,3.2,24.4,49,Eve,C-01,Peeling,9/8/2025,Rework required
+4121,Amoxicillin 250mg,Compression,176.8,171.1,5,25.1,41,Alice,C-02,Weight variation,9/14/2025,Normal run
+4121,Amoxicillin 250mg,Coating,196.2,193,5.4,25.8,,Grace,CT-02,Peeling,9/24/2025,Rework required
+4122,Metformin 500mg,Granulation,152.9,150.1,5.5,22.5,,Eve,C-01,Uneven coating,9/21/2025,Deviated yield
+4122,Metformin 500mg,Compression,162.7,158.2,3,22.5,55,Alice,G-02,Sticking,9/15/2025,Humidity issue
+4122,Metformin 500mg,Coating,162.9,157.3,5.4,22.3,52,Grace,G-02,Weight variation,9/16/2025,Normal run
+4123,Omeprazole 20mg,Granulation,198.8,195.7,5.3,23,41,Eve,C-03,Sticking,9/12/2025,Minor loss
+4123,Omeprazole 20mg,Compression,114.5,110.6,5.3,25.9,,Charlie,CT-01,Weight variation,9/18/2025,Rework required
+4123,Omeprazole 20mg,Coating,147.1,142.7,5.4,24.4,42,Grace,G-01,Spillage,9/5/2025,Minor loss
+4124,Paracetamol 500mg,Granulation,118,115.7,3.8,23.4,52,Bob,CT-02,Sticking,9/27/2025,Minor loss
+4124,Paracetamol 500mg,Compression,143.4,142,5.2,23.2,46,Charlie,CT-01,Sticking,9/15/2025,Humidity issue
+4124,Paracetamol 500mg,Coating,157,156,3.5,22.1,55,Charlie,CT-03,Spillage,9/9/2025,Minor loss
+4125,Vitamin C 100mg,Granulation,196.6,191.6,4.7,23.6,,Alice,CT-03,Weight variation,9/21/2025,Deviated yield
+4125,Vitamin C 100mg,Compression,135.8,132.8,3.6,25.2,48,Grace,C-02,Sticking,9/25/2025,Normal run
+4125,Vitamin C 100mg,Coating,162.3,159.7,5.2,24.1,55,David,CT-04,None,9/6/2025,Normal run
+4126,Ibuprofen 200mg,Granulation,121.6,118.5,5.5,22.5,,Alice,G-01,None,9/23/2025,Normal run
+4126,Ibuprofen 200mg,Compression,127.2,126.5,5.4,22.3,,Charlie,CT-01,Spillage,9/19/2025,Within spec
+4126,Ibuprofen 200mg,Coating,145,140.2,5.1,24.8,45,David,G-01,Capping,9/6/2025,Humidity issue
+4127,Amoxicillin 250mg,Granulation,148.7,145.2,3.3,23.4,55,Eve,C-03,Peeling,9/9/2025,Deviated yield
+4127,Amoxicillin 250mg,Compression,120.8,118.6,3.7,23.6,48,Isaac,CT-04,Weight variation,9/20/2025,Within spec
+4127,Amoxicillin 250mg,Coating,155.4,150.2,3.6,23.9,45,Charlie,G-01,Capping,9/18/2025,Minor loss
+4128,Ibuprofen 200mg,Granulation,154.6,149.3,4.4,24.9,43,David,CT-04,Weight variation,9/23/2025,Humidity issue
+4128,Ibuprofen 200mg,Compression,171.1,165.8,4.6,22.9,55,Eve,C-01,Weight variation,9/3/2025,Minor loss
+4128,Ibuprofen 200mg,Coating,160.3,158.9,3.5,25.2,,Alice,CT-03,Sticking,9/15/2025,Deviated yield
+4129,Vitamin C 100mg,Granulation,156.3,155.3,4.1,23,48,David,CT-01,Uneven coating,9/16/2025,Slight delay
+4129,Vitamin C 100mg,Compression,179,176.6,5.2,23.9,,Charlie,C-01,None,9/27/2025,Rework required
+4129,Vitamin C 100mg,Coating,134,131.6,4.3,24.4,,David,C-02,Spillage,9/24/2025,Rework required
+4130,Metformin 500mg,Granulation,167.8,164.4,4.7,22.4,,Grace,G-01,None,9/19/2025,Slight delay
+4130,Metformin 500mg,Compression,178.7,175.2,4.6,22.4,46,Eve,G-03,Capping,9/22/2025,Within spec
+4130,Metformin 500mg,Coating,175,169.1,3.5,22.7,54,Bob,CT-03,Sticking,9/13/2025,Rework required
+4131,Omeprazole 20mg,Granulation,170.8,169.3,3.7,25.7,49,Isaac,CT-01,Sticking,9/7/2025,Rework required
+4131,Omeprazole 20mg,Compression,182.4,181,4.2,24.9,,Eve,G-01,Weight variation,9/30/2025,Minor loss
+4131,Omeprazole 20mg,Coating,167.1,164,3.9,24.2,49,Alice,C-01,Capping,9/22/2025,Slight delay
+4132,Paracetamol 500mg,Granulation,116.1,114.9,4.5,24.2,,David,G-01,Peeling,9/5/2025,Minor loss
+4132,Paracetamol 500mg,Compression,142.8,140.8,4,23.8,,Eve,CT-01,None,9/10/2025,Within spec
+4132,Paracetamol 500mg,Coating,139.4,137,4.3,22,,Charlie,G-01,Uneven coating,9/30/2025,Minor loss
+4133,Cetirizine 10mg,Granulation,186.5,185.4,3.2,23.3,46,Frank,CT-03,Sticking,9/14/2025,Rework required
+4133,Cetirizine 10mg,Compression,179,173.3,5.3,25,,Bob,G-03,Sticking,9/6/2025,Normal run
+4133,Cetirizine 10mg,Coating,192.6,189.5,5,24.6,55,Bob,CT-04,None,9/27/2025,Minor loss
+4134,Ibuprofen 200mg,Granulation,192.7,187.3,4.1,23.5,,Charlie,CT-03,Weight variation,9/4/2025,Humidity issue
+4134,Ibuprofen 200mg,Compression,115.7,113.8,3.3,24.5,,Bob,C-01,Spillage,9/19/2025,Deviated yield
+4134,Ibuprofen 200mg,Coating,123.3,119.5,4.3,23.7,,Grace,CT-03,Capping,9/17/2025,Rework required
+4135,Paracetamol 500mg,Granulation,146,141.4,3,25.9,,Isaac,G-02,Weight variation,9/12/2025,Normal run
+4135,Paracetamol 500mg,Compression,168.5,164.1,3.8,24.2,,Charlie,C-03,Capping,9/30/2025,Normal run
+4135,Paracetamol 500mg,Coating,165.4,163.4,3.3,25.1,,Bob,CT-04,Peeling,9/6/2025,Rework required
+4136,Amoxicillin 250mg,Granulation,116,114.2,4,24.4,49,Henry,CT-02,Uneven coating,9/6/2025,Humidity issue
+4136,Amoxicillin 250mg,Compression,146.1,143.6,3.9,23.6,55,David,G-02,Sticking,9/5/2025,Normal run
+4136,Amoxicillin 250mg,Coating,137,132.4,4,22.9,,Charlie,G-01,Peeling,9/14/2025,Rework required
+4137,Cetirizine 10mg,Granulation,137.9,135.5,3.1,22.2,,Frank,G-01,Weight variation,9/18/2025,Normal run
+4137,Cetirizine 10mg,Compression,174.8,170,3.7,25.1,54,Henry,C-02,Peeling,9/29/2025,Minor loss
+4137,Cetirizine 10mg,Coating,149.2,148.1,3.7,23.9,42,Eve,CT-01,Uneven coating,9/28/2025,Humidity issue
+4138,Vitamin C 100mg,Granulation,164.7,163.4,5.4,25.2,,Isaac,C-02,Peeling,9/15/2025,Slight delay
+4138,Vitamin C 100mg,Compression,134.8,132.2,4.7,25.5,49,Charlie,C-01,Capping,9/28/2025,Deviated yield
+4138,Vitamin C 100mg,Coating,159.4,154.2,4.4,25.5,47,Eve,G-03,None,9/19/2025,Slight delay
+4139,Metformin 500mg,Granulation,198.9,196.8,4,23.4,40,Frank,C-03,Spillage,9/26/2025,Humidity issue
+4139,Metformin 500mg,Compression,158.2,156.9,5.2,23.4,45,Isaac,C-01,Spillage,9/28/2025,Minor loss
+4139,Metformin 500mg,Coating,196.4,193.6,4.9,23.1,53,Bob,C-01,Sticking,10/1/2025,Humidity issue
+4140,Omeprazole 20mg,Granulation,197.8,194.5,4.1,24.9,45,Frank,C-02,Spillage,9/1/2025,Slight delay
+4140,Omeprazole 20mg,Compression,136.4,131.8,3,23.1,50,Isaac,G-02,Peeling,9/18/2025,Normal run
+4140,Omeprazole 20mg,Coating,150.2,148.7,4.4,23.7,,Grace,C-01,Peeling,9/6/2025,Within spec
+4141,Metformin 500mg,Granulation,198.2,192.6,3.7,23.4,54,Alice,CT-02,Capping,9/12/2025,Minor loss
+4141,Metformin 500mg,Compression,185.3,180.5,3.3,22.1,,Grace,CT-03,Weight variation,9/26/2025,Slight delay
+4141,Metformin 500mg,Coating,155.5,153.1,5.2,23.2,54,Eve,G-02,Uneven coating,9/16/2025,Normal run
+4142,Vitamin C 100mg,Granulation,157.8,153,3.6,22.8,,Grace,G-01,Peeling,9/3/2025,Minor loss
+4142,Vitamin C 100mg,Compression,153.9,151.2,5.5,23.3,,Eve,G-02,Uneven coating,9/3/2025,Rework required
+4142,Vitamin C 100mg,Coating,119.4,117.2,5.4,23.6,50,Charlie,C-01,Spillage,9/3/2025,Deviated yield
+4143,Cetirizine 10mg,Granulation,135.3,133.2,5.2,22.3,,Grace,G-02,Spillage,9/30/2025,Deviated yield
+4143,Cetirizine 10mg,Compression,143.9,140.1,4,25.5,,Henry,CT-04,Weight variation,9/7/2025,Rework required
+4143,Cetirizine 10mg,Coating,169.9,165.1,4,24.7,,Charlie,G-02,Uneven coating,9/27/2025,Slight delay
+4144,Omeprazole 20mg,Granulation,191.9,188.5,4.9,23.2,,Grace,CT-03,Uneven coating,9/17/2025,Within spec
+4144,Omeprazole 20mg,Compression,161.8,158,4.8,23.2,,Isaac,CT-04,Peeling,9/12/2025,Slight delay
+4144,Omeprazole 20mg,Coating,128.2,125.6,3.4,22.5,42,Grace,CT-01,Peeling,9/18/2025,Deviated yield
+4145,Ibuprofen 200mg,Granulation,192.3,190.1,3.2,23.7,55,Henry,C-02,Peeling,9/3/2025,Minor loss
+4145,Ibuprofen 200mg,Compression,137.9,136,4.5,22.6,,Charlie,CT-02,Capping,9/26/2025,Within spec
+4145,Ibuprofen 200mg,Coating,149,147.2,3.5,25,,Isaac,C-02,Weight variation,9/11/2025,Rework required
+4146,Amoxicillin 250mg,Granulation,146.7,142.5,5.4,23.3,53,Bob,G-02,Uneven coating,9/30/2025,Within spec
+4146,Amoxicillin 250mg,Compression,122.6,121,3.4,25.8,,Charlie,CT-04,Sticking,9/11/2025,Minor loss
+4146,Amoxicillin 250mg,Coating,163.3,159.6,3.4,25.9,41,Frank,CT-04,None,9/16/2025,Within spec
+4147,Paracetamol 500mg,Granulation,136.9,134.8,3.3,24.8,,Bob,CT-02,Weight variation,9/23/2025,Rework required
+4147,Paracetamol 500mg,Compression,117.5,114.6,5.4,22.4,41,David,CT-02,None,9/10/2025,Humidity issue
+4147,Paracetamol 500mg,Coating,111.7,109.7,4,22.4,54,Henry,G-02,Spillage,9/3/2025,Rework required
+4148,Vitamin C 100mg,Granulation,111.1,108.6,4.7,23.5,,David,G-02,Peeling,9/7/2025,Slight delay
+4148,Vitamin C 100mg,Compression,197.3,191.9,4.8,23.3,42,Grace,CT-02,Peeling,9/7/2025,Normal run
+4148,Vitamin C 100mg,Coating,158.8,154.6,4.2,24.3,,Charlie,CT-04,Spillage,9/6/2025,Humidity issue
+4149,Cetirizine 10mg,Granulation,131.9,127.5,4.6,23.4,,Isaac,C-03,Sticking,9/14/2025,Slight delay
+4149,Cetirizine 10mg,Compression,129.5,126.9,4.5,23.9,42,Alice,C-01,Spillage,9/18/2025,Slight delay
+4149,Cetirizine 10mg,Coating,188.4,183.4,3.3,23.6,,Bob,CT-03,Capping,9/7/2025,Minor loss
+4150,Ibuprofen 200mg,Granulation,114.8,114.2,3.2,22.5,42,David,C-01,None,9/9/2025,Deviated yield
+4150,Ibuprofen 200mg,Compression,159.5,156.4,5,24.1,53,Bob,G-02,None,9/9/2025,Humidity issue
+4150,Ibuprofen 200mg,Coating,120.2,119,3.6,25.6,46,David,G-02,Uneven coating,9/5/2025,Slight delay
+4151,Amoxicillin 250mg,Granulation,189.1,182.6,4.1,23.6,,Henry,CT-02,Capping,9/19/2025,Slight delay
+4151,Amoxicillin 250mg,Compression,170,166.6,4.1,24.7,52,Alice,G-02,Capping,9/10/2025,Deviated yield
+4151,Amoxicillin 250mg,Coating,177.8,172,3.8,23.6,,Henry,CT-03,Weight variation,9/9/2025,Normal run
+4152,Omeprazole 20mg,Granulation,161.2,155.8,3.1,25,48,Henry,C-01,Sticking,9/26/2025,Normal run
+4152,Omeprazole 20mg,Compression,141.9,140.2,3.5,24.6,,Isaac,G-01,Capping,9/8/2025,Deviated yield
+4152,Omeprazole 20mg,Coating,195.4,192.8,4,24.3,,Bob,C-03,Weight variation,9/25/2025,Minor loss
+4153,Paracetamol 500mg,Granulation,141.2,138.1,3.4,25.8,43,Charlie,CT-03,Spillage,9/10/2025,Within spec
+4153,Paracetamol 500mg,Compression,183.5,179.6,3.2,22.4,,Grace,CT-03,Spillage,9/16/2025,Humidity issue
+4153,Paracetamol 500mg,Coating,110.1,108.2,3.4,23.3,,Henry,C-02,Capping,9/24/2025,Minor loss
+4154,Metformin 500mg,Granulation,188,186.4,5.5,25,,Eve,CT-03,Weight variation,9/6/2025,Within spec
+4154,Metformin 500mg,Compression,135.6,133.5,3.9,23,49,David,G-02,Uneven coating,9/13/2025,Normal run
+4154,Metformin 500mg,Coating,196.7,194.9,3.4,22.8,,Henry,G-01,Spillage,9/3/2025,Minor loss
+4155,Vitamin C 100mg,Granulation,111.2,107.7,5.4,22.1,,Bob,G-01,Weight variation,9/23/2025,Deviated yield
+4155,Vitamin C 100mg,Compression,153.9,149,4.2,24.9,,Isaac,G-01,Weight variation,10/1/2025,Minor loss
+4155,Vitamin C 100mg,Coating,187.4,182.2,4.2,25.5,46,Isaac,C-03,None,9/30/2025,Deviated yield
+4156,Metformin 500mg,Granulation,173.4,167.5,4.6,25.9,41,David,CT-04,Peeling,9/28/2025,Slight delay
+4156,Metformin 500mg,Compression,138.9,137.7,3.8,22.4,51,Bob,C-01,Sticking,10/1/2025,Slight delay
+4156,Metformin 500mg,Coating,128,123.7,5.2,25.4,43,Frank,CT-01,Peeling,9/18/2025,Humidity issue
+4157,Omeprazole 20mg,Granulation,143.5,139.1,5.3,25,49,Charlie,CT-03,Weight variation,9/6/2025,Slight delay
+4157,Omeprazole 20mg,Compression,186.5,180.5,3.1,22.5,44,Charlie,C-01,Uneven coating,9/12/2025,Normal run
+4157,Omeprazole 20mg,Coating,134,132.7,5.2,23.7,,David,C-03,None,9/9/2025,Minor loss
+4158,Ibuprofen 200mg,Granulation,161.9,158.5,4.7,22.3,,Isaac,C-02,Sticking,9/28/2025,Deviated yield
+4158,Ibuprofen 200mg,Compression,195.4,188.9,3.7,24.7,,Grace,G-02,Spillage,9/26/2025,Normal run
+4158,Ibuprofen 200mg,Coating,143.1,138.2,4.4,25.6,,David,CT-01,Weight variation,9/7/2025,Minor loss
+4159,Paracetamol 500mg,Granulation,185.8,180.3,5.1,24.5,47,Bob,C-02,Capping,9/15/2025,Rework required
+4159,Paracetamol 500mg,Compression,182.7,180.2,5.2,22.5,,Bob,CT-02,Peeling,9/7/2025,Slight delay
+4159,Paracetamol 500mg,Coating,115.8,112.4,3.9,24.3,41,Grace,CT-01,Sticking,9/30/2025,Deviated yield
+4160,Amoxicillin 250mg,Granulation,118.7,116.4,3.9,24.3,49,Henry,G-03,Uneven coating,9/17/2025,Slight delay
+4160,Amoxicillin 250mg,Compression,153.1,148.1,5.5,24.6,55,Alice,CT-03,Spillage,9/24/2025,Minor loss
+4160,Amoxicillin 250mg,Coating,168.7,164.8,5.3,23.8,,Eve,C-03,Capping,9/18/2025,Within spec
+4161,Cetirizine 10mg,Granulation,182,176.3,4.4,24,,Alice,CT-02,None,9/28/2025,Deviated yield
+4161,Cetirizine 10mg,Compression,184.5,181.6,4.6,23.8,46,Eve,G-01,Capping,9/16/2025,Humidity issue
+4161,Cetirizine 10mg,Coating,150.5,148.6,5.5,24.7,,Grace,C-03,Spillage,9/30/2025,Deviated yield
+4162,Paracetamol 500mg,Granulation,193.9,189.8,4.5,25.6,54,Eve,CT-04,Spillage,9/29/2025,Slight delay
+4162,Paracetamol 500mg,Compression,149.3,144.2,3.6,26,,Grace,CT-02,Weight variation,9/24/2025,Minor loss
+4162,Paracetamol 500mg,Coating,116.2,113.8,4.4,22.7,40,Bob,CT-01,Weight variation,9/13/2025,Humidity issue
+4163,Cetirizine 10mg,Granulation,119.1,116.9,4.6,25.2,47,Grace,G-03,Uneven coating,9/29/2025,Deviated yield
+4163,Cetirizine 10mg,Compression,131.1,129.1,3.8,22.7,,Bob,G-03,Peeling,9/12/2025,Normal run
+4163,Cetirizine 10mg,Coating,145.2,142.8,5.5,24,53,Charlie,G-01,Spillage,9/12/2025,Slight delay
+4164,Ibuprofen 200mg,Granulation,180.8,179.6,5.3,25.8,44,David,C-03,Spillage,9/12/2025,Deviated yield
+4164,Ibuprofen 200mg,Compression,166.9,161.4,5.1,23,,Alice,C-03,Peeling,9/3/2025,Deviated yield
+4164,Ibuprofen 200mg,Coating,188.3,184.1,4.4,23.2,47,Alice,G-01,Capping,9/19/2025,Deviated yield
+4165,Omeprazole 20mg,Granulation,176.2,174.1,5,22.3,50,Henry,G-01,Uneven coating,9/12/2025,Normal run
+4165,Omeprazole 20mg,Compression,119.7,118.1,3.9,24.9,,Isaac,CT-04,Spillage,9/24/2025,Minor loss
+4165,Omeprazole 20mg,Coating,152,148.6,3.8,26,55,Eve,G-02,Peeling,9/22/2025,Normal run
+4166,Vitamin C 100mg,Granulation,149.8,145.5,5.1,24.3,,Bob,C-01,None,9/12/2025,Humidity issue
+4166,Vitamin C 100mg,Compression,138.7,137,5.1,23.8,,Isaac,CT-02,None,9/1/2025,Normal run
+4166,Vitamin C 100mg,Coating,193.7,192.5,5.2,25.2,54,Frank,CT-02,Capping,9/28/2025,Humidity issue
+4167,Metformin 500mg,Granulation,155.5,152.8,4.5,25.3,,Eve,G-01,None,9/20/2025,Slight delay
+4167,Metformin 500mg,Compression,185.6,179.2,3.8,22.4,,Alice,CT-02,Spillage,9/19/2025,Within spec
+4167,Metformin 500mg,Coating,159.5,154.3,5.3,25.6,,Charlie,C-03,Sticking,9/15/2025,Minor loss
+4168,Amoxicillin 250mg,Granulation,136.6,133.2,3.6,25,,Grace,C-03,None,9/29/2025,Minor loss
+4168,Amoxicillin 250mg,Compression,185.7,179.5,5.5,25.3,,David,CT-02,Spillage,10/1/2025,Rework required
+4168,Amoxicillin 250mg,Coating,113.8,109.9,5.4,25.3,,Bob,CT-04,Spillage,9/14/2025,Minor loss
+4169,Amoxicillin 250mg,Granulation,165.5,162.5,4.9,23,44,Henry,CT-01,Peeling,9/17/2025,Within spec
+4169,Amoxicillin 250mg,Compression,180.4,179,3,24.1,,Henry,G-02,Weight variation,9/30/2025,Normal run
+4169,Amoxicillin 250mg,Coating,188.8,186.6,3.4,25.4,42,Grace,G-02,Sticking,9/19/2025,Within spec
+4170,Cetirizine 10mg,Granulation,123.8,120.7,5.5,24.9,,Henry,C-02,Capping,9/12/2025,Humidity issue
+4170,Cetirizine 10mg,Compression,143,138.9,3.5,22.9,52,Eve,G-02,None,9/3/2025,Rework required
+4170,Cetirizine 10mg,Coating,156.1,150.9,5.2,25.3,50,Isaac,G-01,None,9/22/2025,Normal run
+4171,Paracetamol 500mg,Granulation,166.6,164.3,3.7,23.9,41,Bob,CT-03,Weight variation,9/26/2025,Humidity issue
+4171,Paracetamol 500mg,Compression,199.6,193.3,4.7,24.8,,Grace,C-03,Sticking,9/15/2025,Normal run
+4171,Paracetamol 500mg,Coating,190.6,187,3.8,25.7,54,Charlie,CT-01,Uneven coating,9/28/2025,Humidity issue
+4172,Metformin 500mg,Granulation,114.5,113.3,3.9,22.3,,Eve,G-02,None,9/12/2025,Normal run
+4172,Metformin 500mg,Compression,171.6,166.3,3,23,47,Grace,G-03,None,9/9/2025,Normal run
+4172,Metformin 500mg,Coating,186.3,181.4,4.2,22,48,David,CT-04,Spillage,9/13/2025,Normal run
+4173,Omeprazole 20mg,Granulation,172.1,166.6,5.5,23.5,40,Charlie,C-03,Uneven coating,9/10/2025,Within spec
+4173,Omeprazole 20mg,Compression,150.7,147.9,3.8,22.5,,Grace,G-03,Capping,9/2/2025,Deviated yield
+4173,Omeprazole 20mg,Coating,136.9,132.6,4.8,22.3,52,Eve,C-01,None,9/9/2025,Deviated yield
+4174,Vitamin C 100mg,Granulation,114.4,113.4,4.6,22.1,48,Eve,CT-02,Spillage,9/2/2025,Humidity issue
+4174,Vitamin C 100mg,Compression,182.5,180.3,5.3,23.8,48,Eve,G-02,None,9/2/2025,Rework required
+4174,Vitamin C 100mg,Coating,166.4,161.1,3.8,22.4,47,David,CT-04,Spillage,9/10/2025,Deviated yield
+4175,Ibuprofen 200mg,Granulation,145.2,141.3,5.3,24.9,50,David,CT-01,Capping,9/3/2025,Within spec
+4175,Ibuprofen 200mg,Compression,122.3,118.2,4.5,24,,David,CT-03,Spillage,9/22/2025,Normal run
+4175,Ibuprofen 200mg,Coating,133.8,132.4,4.7,23.9,,Charlie,CT-01,Spillage,9/4/2025,Humidity issue
