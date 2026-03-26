@@ -1,5 +1,3 @@
-# pharma_yield_analysis_sql
-SQL-based analysis of pharmaceutical manufacturing data to evaluate yield, process efficiency, and operational performance.
 # Pharmaceutical Production Yield Analysis (SQL Project)
 
 This project analyzes pharmaceutical manufacturing data to evaluate production yield, identify process inefficiencies, and assess how environmental and operational factors impact performance.
