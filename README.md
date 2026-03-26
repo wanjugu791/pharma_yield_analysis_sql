@@ -28,6 +28,13 @@ Production isn't uniform across stages; deviations link to specific operators/ma
 **Planned**: Power BI/Tableau dashboards, root-cause analysis, predictive modeling
 
 ##Example SQL Query
+---Which stage tends to have the lowest average yield overall?---
+SELECT Stage, ROUND(AVG((OutputWeight_kg/InputWeight_kg)*100),2) AS AvgYield
+FROM Pharma_ProcessPerformance_Extended
+GROUP BY Stage
+ORDER BY AvgYield desc;
 
+##Example SQL Query
 
+The full SQL file:
 [SQL analysis](https://github.com/wanjugu791/pharma_yield_analysis_sql/blob/main/pharma_yield_sql_analysis.sql)
